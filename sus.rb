@@ -2,6 +2,8 @@ require 'net/http'
 require 'json'
 require 'uri'
 array_in=ARGV
+#USAGE
+# sus.rb <username> <password> <ip>
 
 #DEFINE TARGET
 uri = URI.parse("http://localhost:3000/submit")
